@@ -12,3 +12,10 @@ Customer Account Management:
 
    Customers have access and control over their personal account information on our website. 
 
+Search Bar:
+
+   The user can search for products on our website.
+   
+Admin Panel:
+
+   Ebles administrators to easily manage categories and products by providing options to add or delete them. It also provides visibility into the delivery status of products.
