@@ -1,0 +1,44 @@
+img{
+	border-radius:5% ;
+	width: 420px;
+	height: 350px;
+}
+html{
+	background-image: url(kishor3.jpg);
+	background-attachment: fixed;
+	scroll-behavior: smooth;
+}
+body{
+	background-image:kishor3.jpg ;
+}
+div{
+	
+}
+table{
+	width: 100%;
+	height:100%;
+	text-align: center;
+	/*border-color: blue;*/
+	font-size: 20px;
+ data-aos="zoom-in-up";
+}
+th{
+	color: white;
+	font-size: 50px;
+}
+td{
+	 border-radius: 5%; 
+	 box-sizing: border-box;
+  width: 300px;
+  height: 150px;
+  padding: 10px;
+  border: 0px solid dimgray;
+/*
+	  
+    width: 200px;
+    height: 150px; 
+    background-color: gold;
+*/}
+  h3{
+  	font-family: lucida;
+  }

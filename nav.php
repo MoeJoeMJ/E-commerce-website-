@@ -1,0 +1,278 @@
+<?php 
+?>
+
+<!DOCTYPE html> 
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <!-- <link rel="stylesheet" type="text/css" href="style5.cs">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>-->
+
+  <title></title>
+  <style type="text/css">
+
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
+body{
+      background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+      background-position: left;
+      background-size:100% 100%;
+
+}
+/*.myButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 450px;
+    margin-left: ;
+    margin-right:1150px ;
+    margin-bottom:300px ;
+    z-index: 999;
+    background-color:initial ;
+    color: white;
+    border-radius: 30px;
+}
+
+    .carousel-inner img{
+
+    height:520px;
+
+   margin-top:100px ;
+    padding-right:20px ;
+    padding-left:40px;
+    padding-bottom: 20px;
+}
+#sr-only{
+  padding-top: 100px;
+}*/
+.mak{
+   height:70px ;
+  width:400px;
+  float: left;
+  margin-top:-6px ;
+  margin-left: 600px;
+}
+#cartimg{
+ height:50px ;
+  width:60px;
+  float: right;
+  align-items: right;
+  margin-top:5px ;
+ margin-left: 140px;*/
+
+}
+/*.carousel-indicators{
+margin-bottom: 1110px;
+ }*/
+header {
+background-color: ;
+position: fixed;
+left: 0;
+right: 0;
+top: 10px;
+height: 60px;
+width: 90%;
+align-items: center;
+box-shadow: 0 0 15px 0 black;
+vertical-align: middle;
+z-index: 999;
+}
+
+.topnav input[type=text] {
+  float:;
+ color:white;
+ padding: 6px;
+  margin-top: 15px;
+  margin-left: 150px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  border-color: white;
+  font-size: 17px;
+  background-color:initial ;
+}
+input::placeholder{
+  color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: red;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+/*2page*/
+
+
+.topnav{
+  display: flex;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+#menu {
+  z-index: 2;
+}
+
+#menu-bar {
+  width: 45px;
+  height: 40px;
+  margin: 30px 0 20px 20px;
+  cursor: pointer;
+}
+
+.bar {
+  height: 5px;
+  width: 100%;
+  background-color: #DC052D;
+  display: block;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+#bar1 {
+  transform: translateY(-4px);
+}
+
+#bar3 {
+  transform: translateY(4px);
+}
+
+.nav {
+  transition: 0.3s ease;
+  display: none;
+}
+
+.nav ul {
+  padding: 0 22px;
+}
+
+.nav li {
+  list-style: none;
+  padding: 12px 0;
+}
+
+.nav li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  font-weight: bold;
+}
+
+.menu-bg, #menu {
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.menu-bg {
+  z-index: 1;
+  width: 0;
+  height: 0;
+  margin: 30px 0 20px 20px;
+  background: radial-gradient(circle, #DC052D, #DC052D);
+  border-radius: 50%;
+  transition: 0.3s ease;
+}
+
+.change {
+  display: block;
+}
+
+.change .bar {
+  background-color: white;
+}
+
+.change #bar1 {
+  transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar2 {
+  opacity: 0;
+}
+
+.change #bar3 {
+  transform: translateY(-6px) rotateZ(45deg);
+}
+
+.change-bg {
+  width: 520px;
+  height: 460px;
+  transform: translate(-60%,-30%);
+}
+
+
+  </style>
+</head>
+<body>
+<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet"><script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script><script>AOS.init()</script>
+  <script type="text/javascript">
+                function menuOnClick() { document.getElementById("menu-bar").classList.toggle("change"); document.getElementById("nav").classList.toggle("change"); 
+                     document.getElementById("menu-bg")
+                     .classList.toggle("change-bg"); }
+            </script>
+          
+  <header align-items: center><nav>
+    <div  ><a href="index.php"><img class="mak" id="mak" src="mak1.png"></a></div><div id="menu">
+  <div id="menu-bar" onclick="menuOnClick()">
+    <div id="bar1" class="bar"></div>
+    <div id="bar2" class="bar"></div>
+    <div id="bar3" class="bar"></div> 
+    
+  </div>
+  <nav class="nav" id="nav">
+    <ul>
+      <li ><a href="index.php">Home</a></li>
+      <li><a href="profile.php">Profile</a></li>
+      <li ><a href="login.php">Sign in</a></li>
+      <li ><a href="adminlogin.php">Admin</a></li>
+    </ul>
+       
+</nav></div>
+<div class="menu-bg" id="menu-bg"></div>
+  <div class="topnav">
+    <div>
+ <form action="searchpage.php" method="POST" name="frmSearch">
+               <input id="inputSearch" name="search" type="text" value="" placeholder="Search..">
+              <input type="Submit" hidden />
+        </form>
+      </div>
+      <div>
+ <a href="cart.php"> <img id="cartimg" src="item.png"></a></nav>
+</div>
+</div>
+</nav>
+</header>
+
+        </div>
+        
+   
+    
+</body>
+</html>
