@@ -2,7 +2,7 @@
 
 Register & Login:  
 
-    The user can register and login on our website.
+   The user can register and login on our website.
 
 Shopping Cart:
 
@@ -10,5 +10,5 @@ Shopping Cart:
 
 Customer Account Management:
 
-Customers have access and control over their personal account information on our website. 
+   Customers have access and control over their personal account information on our website. 
 
