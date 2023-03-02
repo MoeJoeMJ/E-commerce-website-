@@ -1,6 +1,6 @@
 # MakCart
 
-Register & Login:  
+Register & Login:
 The user can register and login on our website.
 
 Shopping Cart:
